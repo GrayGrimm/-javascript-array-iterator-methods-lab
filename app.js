@@ -305,6 +305,12 @@ let isAdultPresent = null;
 
 // Complete the exercise in the space below:
 
+const isAdult = (dev) => {
+  if (dev.year < 2016) {
+    return true
+  }
+}
+isAdultPresent = devs.some(isAdult)
 // Check your work:
 console.log('Exercise 6 my result: ', isAdultPresent);
 console.log('Exercise 6 correct result: ', true);
